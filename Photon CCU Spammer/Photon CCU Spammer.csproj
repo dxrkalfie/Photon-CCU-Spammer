@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Photon_CCU_Spammer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Photon spammerIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Photon spammerIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PhotonClient">
+      <HintPath>..\..\..\..\Downloads\photon-dotnet-sdk_v5-1-8\PhotonLibs\Release\netstandard2.0\PhotonClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
